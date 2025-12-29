@@ -1,0 +1,24 @@
+{
+  "name": "starpath-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["education", "naplan", "adaptive-learning"],
+  "author": "",
+  "license": "ISC",
+  "description": "StarPath Backend API - AI-powered NAPLAN practice platform",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.2",
+    "openai": "^5.20.2"
+  }
+}
